@@ -1,0 +1,22 @@
+.navbar {
+    background-color:#031f63;
+    color: white;
+}
+
+.jumbotron {
+
+    background-color: #21bc93;
+    color: white;
+}
+
+.jumbotron img {
+    height:25%;
+    width:25%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* background-image: url('img/avatar.svg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;*/
