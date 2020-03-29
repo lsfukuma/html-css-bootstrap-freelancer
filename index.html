@@ -2,50 +2,62 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <title>Bootstrap Freelancer</title>
+        <script src="https://kit.fontawesome.com/9cd5be54d3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <title>Bootstrap Freelancer</title>
+
     </head>
     <body>
         <!-- Menu -->
         <nav class="navbar navbar-default">
             <div class="container">
         <!-- Menu parte sinistra  -->
-                <div class="row col-xs-12">
-
-                    <div class="navbar-header">
-                      <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="navbar-header">
+                            <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
+                        </div>
                     </div>
-<!-- IDEA: menu parte destra -->
-                    <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm visible-md visible-lg">
-                        <li class="text-uppercase"> <a href="#">portfolio</a>
-                        </li>
-                        <li class="text-uppercase">
-                            <a href="#">about</a>
-                        </li>
-                        <li class="text-uppercase">
-                          <a href="#">Contact</a>
-                        </li>
-                    </ul>
+        <!-- menu parte destra -->
+                <div class="row">
+                    <div class="col-md-6 col-lg-9">
+                        <ul class="nav navbar-nav navbar-right ">
+                            <li class="text-uppercase"> <a href="#">portfolio</a>
+                            </li>
+                            <li class="text-uppercase">
+                                <a href="#">about</a>
+                            </li>
+                            <li class="text-uppercase">
+                              <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
+            </div>
             </div>
         </nav>
         <!-- Inizio jumbotron -->
-        <div class="jumbotron">
+        <section class="jumbotron bg-primary">
             <div class="container">
                 <div class="row">
                     <div id="jumbotron-img" class="col-xs-12">
                         <img class="img.responsive"src="img/avatar.svg" alt="">
                     </div>
                     <div class="">
-                      <h1 class="text-uppercase text-center">
+                        <h1 class="text-uppercase text-center">
                           start bootstrap
-                      </h1>
-                      <p class="h2 text-center">-&#9734;-</p>
+                        </h1>
+                        <p class="text-center ">
+                            <span class="glyphicon glyphicon-minus"></span>
+                            <span id="star"><i class="fas fa-star"></i></span>
+                            <span class="glyphicon glyphicon-minus"></span>
+                        </p>
                       <p class="text-center">Graphic Artist - Web Designer - Illustrator</p>
                     </div>
                 </div>
              </div>
-        </div>
+        </section>
     </body>
 </html>

@@ -1,8 +1,11 @@
 .navbar {
     background-color:#313e4f;
+    margin-bottom: 0;
+    border: 0px;
+    border-radius: 0;
 }
 
-.row > .navbar-header a {
+.navbar > .container .navbar-brand {
     color: white;
     font-size: 2rem;
 }
@@ -13,8 +16,11 @@
 }
 
 .jumbotron {
-
     background-color: #66ba9e;
+    color: white;
+}
+
+#star i {
     color: white;
 }
 
@@ -31,8 +37,3 @@
     left: 50%;
     transform: translate(-50%);
 }
-
-/* background-image: url('img/avatar.svg');
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;*/
