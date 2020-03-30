@@ -53,17 +53,29 @@
     right: 0;
 }
 
- /* Inizio parte portfolio */
+ /* Inizio parte portfolio
+
+ manca: colore star */
+
 #portfolio {
     color: #2C3E50;
+    margin-bottom:2%;
 }
-.row-portfolio img {
-    width: calc(100%/3);
-    float: left;
-    border-radius: 5px;
-    padding: 2%;
+
+#portfolio img {
+    height: 280px;
+    padding: 1%;
+    border-radius: 15px;
 }
 
 #portfolio .star {
-    color: #2C3E50; 
+    color: #2C3E50;
+}
+
+/*  inizio sezione about */
+
+#about {
+    padding-top: 2%;
+    background-color: #1ABC9C;
+    color: white;
 }
