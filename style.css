@@ -3,6 +3,7 @@
     margin-bottom: 0;
     border: 0px;
     border-radius: 0;
+    padding: 20px 0;
 }
 
 .navbar > .container .navbar-brand {
@@ -20,20 +21,49 @@
     color: white;
 }
 
-#star i {
-    color: white;
-}
-
-#jumbotron-img {
-    height: 200px;
-    position: relative;
-}
-
 .jumbotron img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+    height: 200px;
+    margin: auto;
+}
+
+.star {
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.star::before,
+.star::after {
+    background-color: white;
+    content: '';
     position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 2px;
+
+}
+
+.star::before {
+    left: 0;
+}
+
+.star::after {
+    right: 0;
+}
+
+ /* Inizio parte portfolio */
+#portfolio {
+    color: #2C3E50;
+}
+.row-portfolio img {
+    width: calc(100%/3);
+    float: left;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+#portfolio .star {
+    color: #2C3E50; 
 }

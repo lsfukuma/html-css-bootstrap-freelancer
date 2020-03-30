@@ -13,51 +13,66 @@
         <nav class="navbar navbar-default">
             <div class="container">
         <!-- Menu parte sinistra  -->
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="navbar-header">
-                            <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
-                        </div>
-                    </div>
-        <!-- menu parte destra -->
-                <div class="row">
-                    <div class="col-md-6 col-lg-9">
-                        <ul class="nav navbar-nav navbar-right ">
-                            <li class="text-uppercase"> <a href="#">portfolio</a>
-                            </li>
-                            <li class="text-uppercase">
-                                <a href="#">about</a>
-                            </li>
-                            <li class="text-uppercase">
-                              <a href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand text-uppercase" href="#">Start bootstrap</a>
                 </div>
-
-            </div>
-            </div>
+            <!-- menu parte destra -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right ">
+                        <li class="text-uppercase"> <a href="#">portfolio</a>
+                        </li>
+                        <li class="text-uppercase">
+                            <a href="#">about</a>
+                        </li>
+                        <li class="text-uppercase">
+                          <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
         </nav>
         <!-- Inizio jumbotron -->
-        <section class="jumbotron bg-primary">
+        <section class="jumbotron text-center">
             <div class="container">
                 <div class="row">
                     <div id="jumbotron-img" class="col-xs-12">
-                        <img class="img.responsive"src="img/avatar.svg" alt="">
-                    </div>
-                    <div class="">
+                        <img class="img.responsive center-block"src="img/avatar.svg" alt="">
                         <h1 class="text-uppercase text-center">
                           start bootstrap
                         </h1>
-                        <p class="text-center ">
-                            <span class="glyphicon glyphicon-minus"></span>
-                            <span id="star"><i class="fas fa-star"></i></span>
-                            <span class="glyphicon glyphicon-minus"></span>
-                        </p>
+                        <div class="star center-block">
+                            <i class="fas fa-star fa-2x"></i>
+                        </div>
                       <p class="text-center">Graphic Artist - Web Designer - Illustrator</p>
                     </div>
                 </div>
              </div>
+        </section>
+        <!-- Inizio portfolio -->
+        <section id="portfolio" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-uppercase text-center">Portfolio</h1>
+                    <div class="star center-block">
+                        <i class="fas fa-star fa-2x"></i>
+                    </div>
+                </div>
+                <div class="row-portfolio col-xs-12 col-md-6 col-lg-4">
+                        <img class="img.responsive"src="img/1cabin.png" alt="">
+                        <img class="img.responsive" src="img/2cake.png" alt="">
+                        <img class="img.responsive" src="img/3circus.png" alt="">
+                        <img class="img.responsive" src="img/4game.png" alt="">
+                        <img class="img.responsive" src="img/5safe.png" alt="">
+                        <img class="img.responsive" src="img/6submarine.png" alt="">
+                </div>
+
+            </div>
         </section>
     </body>
 </html>
