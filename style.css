@@ -19,6 +19,8 @@
 .jumbotron {
     background-color: #66ba9e;
     color: white;
+    padding-top: 200px;
+
 }
 
 .jumbotron img {
@@ -53,11 +55,17 @@
     right: 0;
 }
 
- /* Inizio parte portfolio
+ /* Inizio parte portfolio e contact -- caratteristiche in comune*/
 
- manca: colore star */
+#portfolio .star::before,
+#portfolio .star::after,
+#contact .star::before,
+#contact .star::after {
+    background-color: #2C3E50;
+}
 
-#portfolio {
+#portfolio ,
+#contact{
     color: #2C3E50;
     margin-bottom:2%;
 }
@@ -78,4 +86,36 @@
     padding-top: 2%;
     background-color: #1ABC9C;
     color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#about button {
+    margin: 5% 0;
+    background-color: #1ABC9C;
+    color: white;
+    font-family: inherit;
+    padding: 2%;
+    border: 2px solid white;
+}
+
+/* inizio parte contact */
+
+/* FOOTER */
+
+footer {
+    background-color: #313e4f;
+    color: white;
+    padding: 5% 2%;
+}
+
+footer p {
+
+}
+
+#footer-bottom {
+    padding: 2%;
+    background-color: #1A252F;
+    color: white;
+    margin: auto;
 }
